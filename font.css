@@ -1,0 +1,174 @@
+/* Import Google Fonts */
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@300;600&display=swap');*/
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('../media/fonts/Square Unique Normal.ttf') format('truetype');
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Impacted';
+    src: url('../media/fonts/Impacted.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pen';
+    src: url('../media/fonts/Untlang-1G1rB.ttf') format('truetype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'P';
+    src: url('../media/fonts/TerminessNerdFontPropo-Regular.ttf') format('truetype');
+    font-style: normal;
+}
+
+
+/* Global font settings */
+body {
+    font-family: 'p', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    line-height: 1.6;
+}
+
+/* Headings */
+h1, h2 {
+	color: #e01b24;
+    font-family: 'MyCustomFont' , sans-serif;
+}
+
+h3, h4, h5, h6 {
+    font-family: 'p' , sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h3 {
+	color: #e01b24;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 1.25em;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+/* Paragraphs */
+p {
+	font-family: 'P', sans-serif;
+    font-size: 15px;
+    margin: 5px;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Lists */
+ul, ol {
+    margin: 0 0 1em 1.5em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+/* Blockquotes */
+blockquote {
+    font-style: italic;
+    color: #FFFFFF;
+    border-left: 0.25em solid #e9ecef;
+    margin: 0 0 1em;
+    padding-left: 1em;
+}
+
+/* Code */
+code, pre {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.95em;
+}
+
+/* Small text */
+small {
+    font-size: 0.8em;
+}
+
+/* Custom classes */
+.text-muted {
+    color: #6c757d !important;
+}
+
+.text-primary {
+    color: #007bff !important;
+}
+
+.text-success {
+    color: #28a745 !important;
+}
+
+.text-danger {
+    color: #dc3545 !important;
+}
+
+.text-warning {
+    color: #ffc107 !important;
+}
+
+.text-info {
+    color: #17a2b8 !important;
+}
+
+.text-light {
+    color: #f8f9fa !important;
+}
+
+.text-dark {
+    color: #343a40 !important;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+/* Font weight utilities */
+.font-weight-light {
+    font-weight: 300 !important;
+}
+
+.font-weight-normal {
+    font-weight: 400 !important;
+}
+
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+

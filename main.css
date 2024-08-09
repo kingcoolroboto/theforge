@@ -1,0 +1,218 @@
+.body {
+	 position: fixed;
+     top: 0;
+     left: 0;
+     width: 100vw; /* 100% of the viewport width */
+     background-color: #000000;
+     color: #ffeaff;
+     height: 100vh; /* 100% of the viewport height */
+     /*background-color: #000000;*/
+     overflow: auto; /* Adds scrollbars when content overflows */
+}
+
+.hero {
+	background-image: url('https://i.imghippo.com/files/wmxLk1723111348.webp');
+    background-size: cover;
+    background-position: center center;
+    z-index: 0; /* Ensures the element i*/
+	display :flex;
+	width: 100vw;
+	height: 780px;
+	justify-content: left; /* Centers text horizontally */
+    align-items: center;
+    
+    
+
+}
+
+.logo{
+	width:200px;
+	height:200px; 
+	margin-right:0px ;
+}
+.hero-inner {
+	display :flex;
+	flex-direction: column;
+    height: 50%;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.hero-cen{
+	display: flex;
+	margin-top: 50px;
+	flex-direction: column;
+	color: #e01b24;
+}
+
+
+.s1 {
+	display: flex;
+	border:solid  #33ff33;
+	border-width: 10px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+
+
+.s2 {
+	display: flex;
+
+	border:solid  #00FFFF;
+	border-width: 10px;
+	flex-direction: column;
+}
+
+
+.s3 {
+	display: flex;
+	border:solid  #FF00FF;
+	border-width: 10px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.s4 {
+	display: flex;
+	border:solid  #FF0000;
+	border-width: 10px;
+	padding: 50px;
+	justify-content: center;
+	flex-direction: row;
+	background-color: #FFF;
+	color: #000;
+}
+
+.s5 {
+	display: flex;
+	border:solid  #FFC300;
+	border-width: 10px;
+	justify-content: center;
+	flex-direction: row;
+}
+
+
+.p1{
+	display: flex;
+	background-image: url('../media/background/top.jpg');
+    background-size: 100% 100%;
+    background-position: center center;
+    width: 100%;
+	justify-content: center;
+	align-items: center;
+    padding:  50px;
+}
+
+.p2{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('../media/background/bottom.jpg');
+    background-size: 100% 100%;
+    background-position: center center;
+    width: 100%;
+    gap: 20px;
+    padding: 50px;
+}
+
+
+
+
+.about-left{
+	display: flex;
+	width: 50%;
+	padding: 25px;
+	flex-direction: column;
+}
+
+.about-right{
+	display: flex;
+	width: 50%;
+	padding: 25px;
+	flex-direction: column;
+}
+
+.prisebox{
+	position: relative;
+	width: 300px;
+	height: 300px;
+	border-radius: 20px;
+	color: #000000;
+	padding: 20px;
+}
+
+
+
+
+.g27{
+	width: 600px;
+	height: 600px;
+}
+
+
+
+
+.footrer{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 20px;
+}
+
+.foot-left{
+	display: flex;
+	flex-direction: column;
+	padding-left: 100px;
+	height: 100%;
+}
+
+.foot-center{
+	display: none;
+	flex-direction: column;
+	height: 100%;
+}
+
+.foot-right{
+	display: none;
+	flex-direction: column;
+	padding-right: 100px;
+	height: 100%;
+}
+
+
+
+
+
+
+.share-panel {
+	display: flex;
+	flex-direction: column;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 30px;
+    height: 100%;
+    z-index: 2;
+}
+
+.up{
+
+	position: fixed;
+	top: 0;
+	right: 0;
+
+}
+
+

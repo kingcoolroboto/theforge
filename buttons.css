@@ -1,0 +1,32 @@
+
+.icon {
+    background-color: transparent;
+    object-fit: contain; /* Ensures the image fits within the 20x20 area */
+    display: block; /* Ensures no extra spacing due to inline elements */
+    max-width: 20px; /* Ensures the image does not exceed the container */
+    max-height: 20px; /* Ensures the image does not exceed the container */
+    margin-left:  5px;
+    margin-right: 15px;
+}
+.iconx {
+    background-color: transparent;
+    object-fit: contain; /* Ensures the image fits within the 20x20 area */
+    display: block; /* Ensures no extra spacing due to inline elements */
+    max-width: 17px; /* Ensures the image does not exceed the container */
+    max-height: 17px; /* Ensures the image does not exceed the container */
+    margin-left:  2px;
+    margin-right: 2px;
+}
+.icon-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.icon-button:hover {
+     background-color: transparent;
+     color: #000000;
+     border: none;
+     cursor: pointer;
+}

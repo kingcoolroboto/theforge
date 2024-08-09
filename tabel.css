@@ -1,0 +1,44 @@
+.services-table {
+  width: 100%;
+  max-width: 800px;
+  border-collapse: collapse;
+  background-color: #e52de5;
+  color: #000000;
+  border-radius: 20px;
+  position: relative;
+}
+
+.services-table th, .services-table td {
+  padding: 12px 15px;
+  border: 5px solid #000000;
+  text-align: left;
+}
+
+.services-table th {
+  background-color: #7607b2;
+  color: #000000;
+}
+
+.services-table tr:nth-child(even) {
+  background-color: #b259b2;
+}
+
+.services-table tr:hover {
+  background-color: #ff9bff;
+}
+
+@media (max-width: 768px) {
+.services-table th, .services-table td {
+  padding: 2px 5px;
+  border: 5px solid #000000;
+  text-align: left;
+}
+
+.services-table {
+  width: 80vw;
+  border-radius: 0px;
+  left: -25px;
+}	
+	
+	
+}
